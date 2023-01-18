@@ -3,7 +3,7 @@ import Mechanics from '../assets/mechanics.jpg';
 
 const Newsletter = () => {
   return (
-    <div className="w-full bg-white py-16 px-4">
+    <div className="w-full bg-slate-200 py-16 px-4">
     <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
       <img className="w-[500px] mx-auto my-4" src={Mechanics} alt="/" />
       <div className="flex flex-col justify-center">
