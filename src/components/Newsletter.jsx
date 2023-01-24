@@ -7,7 +7,7 @@ const Newsletter = () => {
     <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
       <img className="w-[500px] mx-auto my-4" src={Mechanics} alt="/" />
       <div className="flex flex-col justify-center">
-      <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">Hire the right vendors every time.</h1>
+      <h1 className="md:text-6xl sm:text-5xl text-2xl font-bold py-2">Hire the right vendors every time.</h1>
       <p className="">We vet every vendor in our marketplace to ensure you  get top-notch service and support for your event. Vendors also earn reviews so you can compare the quality of service.</p>
       <button className="w-[200px] bg-[#86198f] rounded-full font-medium my-6 mx-auto md:mx-0 py-3 text-white">Get Started</button>
       </div>

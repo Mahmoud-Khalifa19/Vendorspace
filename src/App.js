@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Content from './components/Content';
 import Newsletter from './components/Newsletter';
+import Signup from './components/Signup';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
     <Main />
     <Content />
     <Newsletter />
+    <Signup />
     </div>
   );
 }
