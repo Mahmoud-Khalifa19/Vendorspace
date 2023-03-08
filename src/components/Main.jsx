@@ -1,5 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed';
+import { Link } from'react-scroll';
 
 
 export const Main = () => {
@@ -20,9 +21,9 @@ export const Main = () => {
     <p className="md:text-4xl sm:text-4xl text-xl font-bold py-4">
     Discover all the vendors you need in one place.
     </p>
-   
     </div>
-    <button className="w-[200px] bg-[#86198f] rounded-full font-medium my-6 mx-auto py-3 text-white">Get Started</button>
+    <button className="w-[200px] bg-[#86198f] rounded-full font-medium my-6 mx-auto py-3 text-white">Get Started
+    </button>
     </div>
     </div>
   );
