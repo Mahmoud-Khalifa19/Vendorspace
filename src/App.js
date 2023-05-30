@@ -4,7 +4,9 @@ import Main from './components/Main';
 import Content from './components/Content';
 import Newsletter from './components/Newsletter';
 import Signup from './components/Signup';
-import Listings from './components/Listings';
+import Events from './components/Events';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
     <Content />
     <Newsletter />
     <Signup />
-    <Listings />
+    <Events />
+    <Footer />
     </div>
   );
 }

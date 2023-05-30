@@ -41,14 +41,10 @@ const handleClick = () => setNav(!nav);
 
     {/*HandleClick */}
     <div onClick={handleClick} className="block md:hidden">
-    {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+    {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
 
      {/* Navbar Mobile menu */}
-     <ul 
-     className={
-     !nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#60A5FA] flex flex-col justify-center items-center'
-   }
-   >
+     <ul className={nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#60A5FA] flex flex-col justify-center items-center'}>
      <li className='py-6 text-4xl'>
      <Link onClick={handleClick} to='home' smooth={true} duration={500}>
      Home
@@ -78,7 +74,7 @@ const handleClick = () => setNav(!nav);
      </ul>
     
 
-    <div className={!nav ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500" : "fixed left-[-100%"}>
+    <div className={nav ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500" : "fixed left-[-100%"}>
     <h1 className="w-full text-3xl font-bold text-[#f6f1f1] m-4">Vendorspace</h1>
     <ul className="uppercase p-4">
     <li className="p-4 border-b border-gray-600">Home</li>
